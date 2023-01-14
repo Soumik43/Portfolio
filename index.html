@@ -24,7 +24,7 @@
         <nav>
           <ul>
             <li><a href="#">About</a></li>
-            <li><a href="#exp">Experience</a></li>
+            <li><a href="#experience">Experience</a></li>
             <li><a href="#">Acheivements</a></li>
             <li><a href="#">Projects</a></li>
           </ul>
@@ -35,9 +35,14 @@
           <p class="name__details">Hi, my name is Soumik.</p>
           <p class="introduction__details">
             I'm an ASE Intern at
-            <span class="contentstack">ContentStack</span> with more than 10
-            months internship experience and a Competitive Programmer with 2x
-            ICPC regionalist holder.
+            <a
+              href="https://www.contentstack.com/"
+              target="_blank"
+              class="contentstack__redirect"
+              >ContentStack</a
+            >
+            with more than 10 months internship experience and a Competitive
+            Programmer with 2x ICPC regionalist holder.
           </p>
           <div class="button--row">
             <button class="button button__resume" type="button">
@@ -60,8 +65,82 @@
           alt="Soumik's picture"
           class="soumik__pic"
         />
-        <div class="section experience"></div>
       </main>
+      <div class="section" id="experience">
+        <p>Experience</p>
+        <div class="ombre__experience">
+          <div class="experience--col">
+            <p class="experience--heading">
+              Ombre - <span class="experience--position">SDE Intern</span>
+            </p>
+            <p class="tech--stack">Flutter, Firebase, Node.js, AWS, Git</p>
+            <ul>
+              <li>
+                Developed an image compression cloud function in NodeJS which
+                helped in reducing the image sizes for our mobile application by
+                90% hence reducing loading time by 57% for our Dashboard
+                (Homepage) images.
+              </li>
+              <li>
+                Migration of User-Media collection (Audios, Videos, User
+                Highlights, User Links) hence minimizing the cost for user
+                queries by 4 times from the database.
+              </li>
+              <li>
+                Migration of codebase from Flutter V1 to V2 hence improving the
+                stability of mobile applications by introducing null-safety
+                across platforms and devices.
+              </li>
+              <li>
+                Remodeled the Dashboard UI, and revamped the User-Profile page
+                UI, which decreased the page navigation by removing a page,
+                hence improving the UX performance.
+              </li>
+            </ul>
+          </div>
+          <img
+            src="assets/images/ombre.png"
+            alt="Ombre logo"
+            id="ombre__logo"
+          />
+        </div>
+        <div class="bottomstreet__experience">
+          <div class="experience--col">
+            <p class="experience--heading">
+              BottomStreet -
+              <span class="experience--position">Flutter Developer Intern</span>
+            </p>
+            <p class="tech--stack">Flutter, Firebase, RestAPI, Git</p>
+            <ul>
+              <li>
+                Integrated REST API, and Firebase for authentication, storage,
+                and testing purposes, and applied Remote state-management
+                (Riverpod) using Flutter.
+              </li>
+              <li>
+                Designed and implemented a feature for showing trending and
+                recent searches that helped in the retention of 23% of the
+                users.
+              </li>
+              <li>
+                Implemented Deep Linking into the mobile application which led
+                to an 18% increase in user engagement and a 7% increase in new
+                users.
+              </li>
+              <li>Worked on payment portal using Razorpay (Flutter).</li>
+              <li>
+                Integrated more than 20 REST API’s in Flutter by creating data
+                model classes to parse data for the client side.
+              </li>
+            </ul>
+          </div>
+          <img
+            src="assets/images/bottomstreet.avif"
+            alt="BottomStreet logo"
+            id="bottomstreet__logo"
+          />
+        </div>
+      </div>
     </div>
   </body>
 </html>
