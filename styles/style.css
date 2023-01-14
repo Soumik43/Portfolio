@@ -5,8 +5,8 @@
   font-family: "Sofia Sans", sans-serif;
 }
 
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -51,11 +51,67 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: #000;
-  font-size: 22px;
+  font-size: 1rem;
   font-weight: bold;
   color: var(--text-secondary);
 }
 
-main{
-    height: 2000px;
+main {
+  display: flex;
+  flex-direction: row;
+  margin-top: 6rem;
+}
+
+.details__col {
+  width: 60vw;
+}
+
+.soumik__pic {
+  width: 25vw;
+  border-radius: 20px;
+}
+
+.name__details {
+  font-size: 1.5rem;
+  font-weight: 550;
+}
+
+.introduction__details {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.button {
+  border: 1px solid var(--background-secondary);
+  padding: 10px 20px;
+  color: var(--background-secondary);
+  font-size: 0.9rem;
+  font-weight: bold;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button__resume {
+  margin-right: 0.5rem;
+}
+
+.button__talk {
+  margin-left: 0.5rem;
+  color: white;
+  background: linear-gradient(
+    to right,
+    var(--background-secondary),
+    var(--background-primary)
+  );
+}
+
+.resume__redirect {
+  text-decoration: none;
+  color: var(--background-secondary);
+}
+
+.talk__redirect {
+  text-decoration: none;
+  color: white;
 }
