@@ -25,7 +25,7 @@ html {
   padding-right: 8%;
 }
 
-.navbar {
+header {
   width: 100%;
   display: flex;
   align-items: center;
@@ -36,7 +36,6 @@ html {
 
 .navbar__logo {
   width: 12vw;
-  /* height: 10vh; */
   cursor: pointer;
   margin: 20px 0;
 }
@@ -74,7 +73,7 @@ main {
   width: 60vw;
 }
 
-.soumik__pic {
+#soumik__pic {
   width: 25vw;
   border-radius: 20px;
   margin-left: 2rem;
@@ -184,6 +183,12 @@ main {
   height: 7vw;
   margin-left: 2.5rem;
   border-radius: 15px;
+  transition: 0.5s;
+}
+
+#ombre__logo:hover {
+  width: 25vw;
+  height: 9vw;
 }
 
 #bottomstreet__logo {
@@ -191,4 +196,30 @@ main {
   height: 15vw;
   margin-left: 2.5rem;
   border-radius: 15px;
+  transition: 0.5s;
+}
+
+#bottomstreet__logo:hover {
+  width: 18vw;
+  height: 18vw;
+}
+
+.visit__internship__link {
+  font-weight: 600;
+}
+
+.href__visit__link {
+  text-decoration: none;
+  color: var(--background-secondary);
+}
+
+.acheievement__bullet {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.ach__certificate {
+  color: var(--background-primary);
+  font-weight: bold;
+  text-decoration: none;
 }
