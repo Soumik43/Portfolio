@@ -98,6 +98,7 @@ main {
   background-color: white;
   cursor: pointer;
   border-radius: 5px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.12);
 }
 
 .button__resume {
@@ -106,7 +107,6 @@ main {
 
 .button__talk {
   margin-left: 0.5rem;
-  color: white;
   background: linear-gradient(
     to right,
     var(--background-secondary),
