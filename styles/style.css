@@ -206,6 +206,7 @@ main {
 
 .visit__internship__link {
   font-weight: 600;
+  font-size: 1rem;
 }
 
 .href__visit__link {
@@ -222,4 +223,10 @@ main {
   color: var(--background-primary);
   font-weight: bold;
   text-decoration: none;
+}
+
+.project {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 3rem;
 }
