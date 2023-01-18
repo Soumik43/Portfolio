@@ -1,301 +1,242 @@
 <!-- Inspiration from -> https://dribbble.com/shots/11181193-Kristina-Marketing-Redesign-a-Freelance-UX-UI-Designer -->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/style.css" />
-    <title>Soumik's Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@300;600&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div class="container">
-      <header>
-        <img
-          src="assets/logos/Soumik-logos_black.png"
-          alt="Soumiks logo"
-          class="navbar__logo"
-        />
-        <nav>
-          <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#acheivements">Acheivements</a></li>
-            <li><a href="#projects">Projects</a></li>
-          </ul>
-        </nav>
-      </header>
-      <main>
-        <div class="details--col">
-          <p class="name__details">Hi, my name is Soumik.</p>
-          <p class="introduction__details">
-            I'm an ASE Intern at
-            <a
-              href="https://www.contentstack.com/"
-              target="_blank"
-              class="contentstack__redirect"
-              >ContentStack</a
-            >
-            with more than 10 months of internship experience and a Competitive
-            Programmer with a 2x ICPC regionalist holder.
-          </p>
-          <div class="button--row">
-            <button class="button button__resume" type="button">
-              <a
-                href="https://drive.google.com/file/d/1yE6s1g_iTln6tg2uaM2dRIq9vwEk3pM6/view?usp=sharing"
-                class="resume__redirect"
-                target="_blank"
-                >Resume</a
-              >
-            </button>
-            <button class="button button__talk" type="button">
-              <a href="mailto:soumik43@yahoo.com" class="talk__redirect"
-                >Let's Talk</a
-              >
-            </button>
-          </div>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles/style.css" />
+        <title>Soumik's Portfolio</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@300;600&display=swap" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <a href="#"
+                    ><img src="assets/logos/Soumik-logos_black.png" alt="Soumiks logo" class="navbar__logo"
+                /></a>
+                <nav>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#acheivements">Acheivements</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <div class="details--col">
+                    <p class="name__details">Hi, my name is Soumik.</p>
+                    <p class="introduction__details">
+                        I'm an ASE Intern at
+                        <a href="https://www.contentstack.com/" target="_blank" class="contentstack__redirect"
+                            >ContentStack</a
+                        >
+                        with more than 10 months of internship experience and a Competitive Programmer with a 2x ICPC
+                        regionalist holder.
+                    </p>
+                    <div class="button--row">
+                        <button class="button button__resume" type="button">
+                            <a
+                                href="https://drive.google.com/file/d/1yE6s1g_iTln6tg2uaM2dRIq9vwEk3pM6/view?usp=sharing"
+                                class="resume__redirect"
+                                target="_blank"
+                                >Resume</a
+                            >
+                        </button>
+                        <button class="button button__talk" type="button">
+                            <a href="mailto:soumik43@yahoo.com" class="talk__redirect">Let's Talk</a>
+                        </button>
+                    </div>
+                </div>
+                <img src="assets/images/soumik-gradient.jpg" alt="Soumik's picture" id="soumik__pic" />
+            </main>
+            <div class="section" id="experience">
+                <p>Experience</p>
+                <div class="ombre__experience">
+                    <div class="experience--col">
+                        <p class="experience--heading">Ombre - <span class="experience--position">SDE Intern</span></p>
+                        <p class="tech--stack">Flutter, Firebase, Node.js, AWS, Git</p>
+                        <ul>
+                            <li>
+                                Developed an image compression cloud function in NodeJS which helped in reducing the
+                                image sizes for our mobile application by 90% hence reducing loading time by 57% for our
+                                Dashboard (Homepage) images.
+                            </li>
+                            <li>
+                                Migration of User-Media collection (Audios, Videos, User Highlights, User Links) hence
+                                minimizing the cost for user queries by 4 times from the database.
+                            </li>
+                            <li>
+                                Migration of codebase from Flutter V1 to V2 hence improving the stability of mobile
+                                applications by introducing null-safety across platforms and devices.
+                            </li>
+                            <li>
+                                Remodeled the Dashboard UI, and revamped the User-Profile page UI, which decreased the
+                                page navigation by removing a page, hence improving the UX performance.
+                            </li>
+                        </ul>
+                        <p class="visit__internship__link">
+                            Visit
+                            <a href="https://liveombre.com/" class="href__visit__link" target="_blank">Ombre</a>
+                        </p>
+                    </div>
+                    <img src="assets/images/ombre.png" alt="Ombre logo" id="ombre__logo" />
+                </div>
+                <div class="bottomstreet__experience">
+                    <div class="experience--col">
+                        <p class="experience--heading">
+                            BottomStreet -
+                            <span class="experience--position">Flutter Developer Intern</span>
+                        </p>
+                        <p class="tech--stack">Flutter, Firebase, RestAPI, Git</p>
+                        <ul>
+                            <li>
+                                Integrated REST API, and Firebase for authentication, storage, and testing purposes, and
+                                applied Remote state-management (Riverpod) using Flutter.
+                            </li>
+                            <li>
+                                Designed and implemented a feature for showing trending and recent searches that helped
+                                in the retention of 23% of the users.
+                            </li>
+                            <li>
+                                Implemented Deep Linking into the mobile application which led to an 18% increase in
+                                user engagement and a 7% increase in new users.
+                            </li>
+                            <li>Worked on payment portal using Razorpay (Flutter).</li>
+                            <li>
+                                Integrated more than 20 REST API’s in Flutter by creating data model classes to parse
+                                data for the client side.
+                            </li>
+                        </ul>
+                        <p class="visit__internship__link">
+                            Visit
+                            <a href="https://www.bottomstreet.com/" class="href__visit__link" target="_blank"
+                                >BottomStreet</a
+                            >
+                        </p>
+                    </div>
+                    <img src="assets/images/bottomstreet.avif" alt="BottomStreet logo" id="bottomstreet__logo" />
+                </div>
+            </div>
+            <div class="section" id="acheivements">
+                <p>Acheivements</p>
+                <p class="acheievement__bullet">
+                    <b>-</b> <b>ACM-ICPC regionals finalist 2020</b> (08/2021), <b>2021</b> (10/2022) amongst
+                    <b>4000+ teams all over India</b> at Amritapuri Site.
+                    <a
+                        href="https://drive.google.com/file/d/1Xv2yrmtFfPKHxhg4u2RAJjnoW-YCLIte/view?usp=sharing"
+                        class="ach__certificate"
+                        target="_blank"
+                        >(Certificate)</a
+                    >
+                </p>
+                <p class="acheievement__bullet">
+                    <b>-</b> <b>Specialist (1498)</b> at
+                    <a href="https://codeforces.com/profile/Soumik43" class="ach__certificate" target="_blank"
+                        >Codeforces</a
+                    >
+                    a with more than <b>500+</b> problems solved.
+                </p>
+                <p class="acheievement__bullet">
+                    <b>-</b> <b>4 Star (1923)</b> at
+                    <a href="https://www.codechef.com/users/soumik43" class="ach__certificate" target="_blank"
+                        >CodeChef</a
+                    >, among the <b>top 1% Competitive Programmers</b> out of
+                    <b>5,00,000+</b>
+                    participants.
+                </p>
+                <p class="acheievement__bullet">
+                    <b>-</b> <b>First Runner-Up</b> in Techsurf 2022 - ContentStack hackathon amongst
+                    <b>11,900+</b> participants.<a
+                        href="https://unstop.com/competition/techsurf-2022-contentstack-359635/case-submissions/44082"
+                        class="ach__certificate"
+                        target="_blank"
+                    >
+                        (Link)</a
+                    >
+                </p>
+                <p class="acheievement__bullet">
+                    <b>-</b> <b>Global rank #421</b> in Codeforces Round 720 (Div. 2) amongst
+                    <b>37,000+</b> participants.
+                </p>
+                <p class="acheievement__bullet">
+                    <b>-</b> <b>Global rank #407</b> out of <b>1000+</b> participants in Codechef November Challenge
+                    2020 (Div 1).
+                </p>
+                <p class="acheievement__bullet">
+                    <b>-</b> <b>National rank</b> #5 in a CodeChef contest held by our college with participants all
+                    over India.
+                </p>
+                <p class="acheievement__bullet">
+                    <b>-</b> More than <b>170</b> problems solved in
+                    <a href="https://leetcode.com/Soumik43/" class="ach__certificate" target="_blank"> Leetcode.</a>
+                </p>
+            </div>
+            <div class="section" id="projects">
+                <p>Projects</p>
+                <div class="project">
+                    <p class="experience--heading">Uber Clone App</p>
+                    <p class="tech--stack">Flutter, Firebase, Git</p>
+                    <ul>
+                        <li>Applied advanced state management concepts with the Provider flutter package.</li>
+                        <li>
+                            Used Google Cloud Platform for adding various features like geolocation, search places,
+                            directions and ride estimates, etc.
+                        </li>
+                        <li>
+                            Utilized Google Geocoding API in order to find a place address with location coordinates.
+                        </li>
+                        <li>Real-Time Push Notification messages using Firebase (FCM).</li>
+                    </ul>
+                    <p class="visit__internship__link">
+                        Visit
+                        <a href="https://github.com/Soumik43/Uber-clone" class="href__visit__link" target="_blank"
+                            >Uber git repo</a
+                        >
+                    </p>
+                </div>
+                <div class="project">
+                    <p class="experience--heading">Corona Virus Tracking Application</p>
+                    <p class="tech--stack">Flutter, REST API, Git</p>
+                    <ul>
+                        <li>
+                            Built a Corona Virus tracking application using Flutter and REST API with MVVM application
+                            architecture.
+                        </li>
+                    </ul>
+                    <p class="visit__internship__link">
+                        Visit
+                        <a
+                            href="https://github.com/Soumik43/Coronavirus-tracking-application"
+                            class="href__visit__link"
+                            target="_blank"
+                            >Corona virus application git repo</a
+                        >
+                    </p>
+                </div>
+                <div class="project">
+                    <p class="experience--heading">Chat application</p>
+                    <p class="tech--stack">Flutter, Firebase, Git</p>
+                    <ul>
+                        <li>
+                            Developed a chat application using Flutter and utilized Firebase authentication, database
+                            and storage.
+                        </li>
+                    </ul>
+                    <p class="visit__internship__link">
+                        Visit
+                        <a
+                            href="https://github.com/Soumik43/Coronavirus-tracking-application"
+                            class="href__visit__link"
+                            target="_blank"
+                            >Chat application git repo</a
+                        >
+                    </p>
+                </div>
+            </div>
         </div>
-        <img
-          src="assets/images/soumik-gradient.jpg"
-          alt="Soumik's picture"
-          id="soumik__pic"
-        />
-      </main>
-      <div class="section" id="experience">
-        <p>Experience</p>
-        <div class="ombre__experience">
-          <div class="experience--col">
-            <p class="experience--heading">
-              Ombre - <span class="experience--position">SDE Intern</span>
-            </p>
-            <p class="tech--stack">Flutter, Firebase, Node.js, AWS, Git</p>
-            <ul>
-              <li>
-                Developed an image compression cloud function in NodeJS which
-                helped in reducing the image sizes for our mobile application by
-                90% hence reducing loading time by 57% for our Dashboard
-                (Homepage) images.
-              </li>
-              <li>
-                Migration of User-Media collection (Audios, Videos, User
-                Highlights, User Links) hence minimizing the cost for user
-                queries by 4 times from the database.
-              </li>
-              <li>
-                Migration of codebase from Flutter V1 to V2 hence improving the
-                stability of mobile applications by introducing null-safety
-                across platforms and devices.
-              </li>
-              <li>
-                Remodeled the Dashboard UI, and revamped the User-Profile page
-                UI, which decreased the page navigation by removing a page,
-                hence improving the UX performance.
-              </li>
-            </ul>
-            <p class="visit__internship__link">
-              Visit
-              <a
-                href="https://liveombre.com/"
-                class="href__visit__link"
-                target="_blank"
-                >Ombre</a
-              >
-            </p>
-          </div>
-          <img
-            src="assets/images/ombre.png"
-            alt="Ombre logo"
-            id="ombre__logo"
-          />
-        </div>
-        <div class="bottomstreet__experience">
-          <div class="experience--col">
-            <p class="experience--heading">
-              BottomStreet -
-              <span class="experience--position">Flutter Developer Intern</span>
-            </p>
-            <p class="tech--stack">Flutter, Firebase, RestAPI, Git</p>
-            <ul>
-              <li>
-                Integrated REST API, and Firebase for authentication, storage,
-                and testing purposes, and applied Remote state-management
-                (Riverpod) using Flutter.
-              </li>
-              <li>
-                Designed and implemented a feature for showing trending and
-                recent searches that helped in the retention of 23% of the
-                users.
-              </li>
-              <li>
-                Implemented Deep Linking into the mobile application which led
-                to an 18% increase in user engagement and a 7% increase in new
-                users.
-              </li>
-              <li>Worked on payment portal using Razorpay (Flutter).</li>
-              <li>
-                Integrated more than 20 REST API’s in Flutter by creating data
-                model classes to parse data for the client side.
-              </li>
-            </ul>
-            <p class="visit__internship__link">
-              Visit
-              <a
-                href="https://www.bottomstreet.com/"
-                class="href__visit__link"
-                target="_blank"
-                >BottomStreet</a
-              >
-            </p>
-          </div>
-          <img
-            src="assets/images/bottomstreet.avif"
-            alt="BottomStreet logo"
-            id="bottomstreet__logo"
-          />
-        </div>
-      </div>
-      <div class="section" id="acheivements">
-        <p>Acheivements</p>
-        <p class="acheievement__bullet">
-          <b>-</b> <b>ACM-ICPC regionals finalist 2020</b> (08/2021),
-          <b>2021</b> (10/2022) amongst <b>4000+ teams all over India</b> at
-          Amritapuri Site.
-          <a
-            href="https://drive.google.com/file/d/1Xv2yrmtFfPKHxhg4u2RAJjnoW-YCLIte/view?usp=sharing"
-            class="ach__certificate"
-            target="_blank"
-            >(Certificate)</a
-          >
-        </p>
-        <p class="acheievement__bullet">
-          <b>-</b> <b>Specialist (1498)</b> at
-          <a
-            href="https://codeforces.com/profile/Soumik43"
-            class="ach__certificate"
-            target="_blank"
-            >Codeforces</a
-          >
-          a with more than <b>500+</b> problems solved.
-        </p>
-        <p class="acheievement__bullet">
-          <b>-</b> <b>4 Star (1923)</b> at
-          <a
-            href="https://www.codechef.com/users/soumik43"
-            class="ach__certificate"
-            target="_blank"
-            >CodeChef</a
-          >, among the <b>top 1% Competitive Programmers</b> out of
-          <b>5,00,000+</b>
-          participants.
-        </p>
-        <p class="acheievement__bullet">
-          <b>-</b> <b>First Runner-Up</b> in Techsurf 2022 - ContentStack
-          hackathon amongst <b>11,900+</b> participants.<a
-            href="https://unstop.com/competition/techsurf-2022-contentstack-359635/case-submissions/44082"
-            class="ach__certificate"
-            target="_blank"
-          >
-            (Link)</a
-          >
-        </p>
-        <p class="acheievement__bullet">
-          <b>-</b> <b>Global rank #421</b> in Codeforces Round 720 (Div. 2)
-          amongst <b>37,000+</b> participants.
-        </p>
-        <p class="acheievement__bullet">
-          <b>-</b> <b>Global rank #407</b> out of <b>1000+</b> participants in
-          Codechef November Challenge 2020 (Div 1).
-        </p>
-        <p class="acheievement__bullet">
-          <b>-</b> <b>National rank</b> #5 in a CodeChef contest held by our
-          college with participants all over India.
-        </p>
-        <p class="acheievement__bullet">
-          <b>-</b> More than <b>170</b> problems solved in
-          <a
-            href="https://leetcode.com/Soumik43/"
-            class="ach__certificate"
-            target="_blank"
-          >
-            Leetcode.</a
-          >
-        </p>
-      </div>
-      <div class="section" id="projects">
-        <p>Projects</p>
-        <div class="project">
-          <p class="experience--heading">Uber Clone App</p>
-          <p class="tech--stack">Flutter, Firebase, Git</p>
-          <ul>
-            <li>
-              Applied advanced state management concepts with the Provider
-              flutter package.
-            </li>
-            <li>
-              Used Google Cloud Platform for adding various features like
-              geolocation, search places, directions and ride estimates, etc.
-            </li>
-            <li>
-              Utilized Google Geocoding API in order to find a place address
-              with location coordinates.
-            </li>
-            <li>Real-Time Push Notification messages using Firebase (FCM).</li>
-          </ul>
-          <p class="visit__internship__link">
-            Visit
-            <a
-              href="https://github.com/Soumik43/Uber-clone"
-              class="href__visit__link"
-              target="_blank"
-              >Uber git repo</a
-            >
-          </p>
-        </div>
-        <div class="project">
-          <p class="experience--heading">Corona Virus Tracking Application</p>
-          <p class="tech--stack">Flutter, REST API, Git</p>
-          <ul>
-            <li>
-              Built a Corona Virus tracking application using Flutter and REST
-              API with MVVM application architecture.
-            </li>
-          </ul>
-          <p class="visit__internship__link">
-            Visit
-            <a
-              href="https://github.com/Soumik43/Coronavirus-tracking-application"
-              class="href__visit__link"
-              target="_blank"
-              >Corona virus application git repo</a
-            >
-          </p>
-        </div>
-        <div class="project">
-          <p class="experience--heading">Chat application</p>
-          <p class="tech--stack">Flutter, Firebase, Git</p>
-          <ul>
-            <li>
-              Developed a chat application using Flutter and utilized Firebase
-              authentication, database and storage.
-            </li>
-          </ul>
-          <p class="visit__internship__link">
-            Visit
-            <a
-              href="https://github.com/Soumik43/Coronavirus-tracking-application"
-              class="href__visit__link"
-              target="_blank"
-              >Chat application git repo</a
-            >
-          </p>
-        </div>
-      </div>
-    </div>
-  </body>
+    </body>
 </html>

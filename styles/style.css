@@ -1,232 +1,291 @@
-html {
-  scroll-behavior: smooth;
-}
-
 :root {
-  --background-primary: #f3494e;
-  --background-secondary: #ff8d4c;
-  --text-primary: #0f0c21;
-  --text-secondary: #696872;
-  --text-small: #bababa;
+    --background-primary: #f3494e;
+    --background-secondary: #ff8d4c;
+    --text-primary: #0f0c21;
+    --text-secondary: #696872;
+    --text-small: #bababa;
+    scroll-behavior: smooth;
 }
 
 * {
-  margin: none;
-  padding: none;
-  box-sizing: border-box;
-  font-family: "Sofia Sans", sans-serif;
-  color: var(--text-primary);
+    margin: none;
+    padding: none;
+    box-sizing: border-box;
+    font-family: "Sofia Sans", sans-serif;
+    color: var(--text-primary);
 }
 
 .container {
-  width: 100%;
-  min-height: 100vh;
-  padding-left: 8%;
-  padding-right: 8%;
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
 }
 
+/* header start */
+
 header {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  position: sticky;
-  top: 0;
-  background-color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
 }
 
 .navbar__logo {
-  width: 12vw;
-  cursor: pointer;
-  margin: 20px 0;
+    width: 12vw;
+    cursor: pointer;
+    margin: 20px 0;
 }
 
 nav {
-  flex: 1;
-  text-align: right;
+    flex: 1;
+    text-align: right;
 }
 
 nav ul li {
-  list-style: none;
-  display: inline-block;
-  margin-right: 30px;
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
 }
 
 nav ul li a {
-  text-decoration: none;
-  color: #000;
-  font-size: 1rem;
-  font-weight: bold;
-  color: var(--text-secondary);
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--text-secondary);
 }
 
 nav ul li a:hover {
-  color: var(--background-secondary);
+    color: var(--background-secondary);
 }
 
+/* header end */
+
+/* main content start */
+
 main {
-  display: flex;
-  flex-direction: row;
-  margin-top: 6rem;
+    display: flex;
+    flex-direction: row;
+    margin-top: 6rem;
 }
 
 .details__col {
-  width: 60vw;
+    width: 60vw;
 }
 
 #soumik__pic {
-  width: 25vw;
-  border-radius: 20px;
-  margin-left: 2rem;
+    width: 25vw;
+    border-radius: 20px;
+    margin-left: 2rem;
 }
 
 .name__details {
-  font-size: 1.5rem;
-  font-weight: 550;
+    font-size: 1.5rem;
+    font-weight: 550;
 }
 
 .introduction__details {
-  font-size: 2rem;
-  font-weight: bold;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 .button {
-  border: 1px solid var(--background-secondary);
-  padding: 10px 20px;
-  color: var(--background-secondary);
-  font-size: 0.9rem;
-  font-weight: bold;
-  background-color: white;
-  cursor: pointer;
-  border-radius: 5px;
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.12);
+    border: 1px solid var(--background-secondary);
+    padding: 10px 20px;
+    color: var(--background-secondary);
+    font-size: 0.9rem;
+    font-weight: bold;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.12);
 }
 
 .button__resume {
-  margin-right: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 .button__talk {
-  margin-left: 0.5rem;
-  background: linear-gradient(
-    to right,
-    var(--background-secondary),
-    var(--background-primary)
-  );
+    margin-left: 0.5rem;
+    background: linear-gradient(to right, var(--background-secondary), var(--background-primary));
 }
 
 .resume__redirect {
-  text-decoration: none;
-  color: var(--background-secondary);
+    text-decoration: none;
+    color: var(--background-secondary);
 }
 
 .talk__redirect {
-  text-decoration: none;
-  color: white;
+    text-decoration: none;
+    color: white;
 }
 
 .contentstack {
-  color: var(--background-primary);
-  cursor: pointer;
+    color: var(--background-primary);
+    cursor: pointer;
 }
 
 .contentstack__redirect {
-  text-decoration: none;
-  cursor: pointer;
-  color: var(--background-primary);
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--background-primary);
 }
+/* main content end */
+
+/* experience section start */
 
 .section {
-  margin-top: 7rem;
-  font-size: 2rem;
-  font-weight: bolder;
+    margin-top: 7rem;
+    font-size: 2rem;
+    font-weight: bolder;
 }
 
 .ombre__experience {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .experience--col {
-  font-size: 1rem;
-  font-weight: 500;
-  width: 53vw;
+    font-size: 1rem;
+    font-weight: 500;
+    width: 53vw;
 }
 
 .experience--heading {
-  font-size: 1.25rem;
-  font-weight: 700;
+    font-size: 1.25rem;
+    font-weight: 700;
 }
 
 .experience--position {
-  color: var(--text-secondary);
-  font-weight: 400;
+    color: var(--text-secondary);
+    font-weight: 400;
 }
 
 .tech--stack {
-  font-size: 0.9rem;
-  font-weight: 400;
-  color: var(--text-small);
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: var(--text-small);
 }
 
 .bottomstreet__experience {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
 }
 
 #ombre__logo {
-  width: 22vw;
-  height: 7vw;
-  margin-left: 2.5rem;
-  border-radius: 15px;
-  transition: 0.5s;
+    width: 22vw;
+    height: 7vw;
+    margin-left: 2.5rem;
+    border-radius: 15px;
+    transition: 0.5s;
 }
 
 #ombre__logo:hover {
-  width: 25vw;
-  height: 9vw;
+    width: 25vw;
+    height: 9vw;
 }
 
 #bottomstreet__logo {
-  width: 15vw;
-  height: 15vw;
-  margin-left: 2.5rem;
-  border-radius: 15px;
-  transition: 0.5s;
+    width: 15vw;
+    height: 15vw;
+    margin-left: 2.5rem;
+    border-radius: 15px;
+    transition: 0.5s;
 }
 
 #bottomstreet__logo:hover {
-  width: 18vw;
-  height: 18vw;
+    width: 18vw;
+    height: 18vw;
 }
 
 .visit__internship__link {
-  font-weight: 600;
-  font-size: 1rem;
+    font-weight: 600;
+    font-size: 1rem;
 }
 
 .href__visit__link {
-  text-decoration: none;
-  color: var(--background-secondary);
+    text-decoration: none;
+    color: var(--background-secondary);
 }
 
+/* experience section end */
+
+/* acheievement section start */
+
 .acheievement__bullet {
-  font-size: 1.2rem;
-  font-weight: 500;
+    font-size: 1.2rem;
+    font-weight: 500;
 }
 
 .ach__certificate {
-  color: var(--background-primary);
-  font-weight: bold;
-  text-decoration: none;
+    color: var(--background-primary);
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .project {
-  font-size: 1.25rem;
-  font-weight: 500;
-  margin-bottom: 3rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+/* acheievement section end */
+
+/* Mobile screen responsiveness */
+
+@media screen and (max-width: 480px) {
+    nav {
+        display: none;
+    }
+
+    header {
+        position: relative;
+    }
+
+    .navbar__logo {
+        width: 100%;
+    }
+
+    main {
+        display: flex;
+        margin-top: 0;
+        flex-wrap: wrap;
+    }
+
+    #soumik__pic {
+        display: none;
+    }
+
+    .ombre__experience {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .experience--col {
+        width: 100%;
+    }
+    #ombre__logo {
+        display: none;
+    }
+
+    .section {
+        margin-top: 4rem;
+    }
+
+    .bottomstreet__experience {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #bottomstreet__logo {
+        display: none;
+    }
 }
