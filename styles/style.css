@@ -241,6 +241,32 @@ main {
 
 /* acheievement section end */
 
+/* Footer start */
+.solid {
+    border-top: 1px solid var(--text-secondary);
+}
+
+.footer--col {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.footer__detail {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+}
+.fa {
+    margin: 0.75rem 1rem;
+    color: var(--text-secondary);
+}
+
+.fa:hover {
+    color: var(--text-primary);
+}
+
+/* Footer end */
+
 /* Mobile screen responsiveness */
 
 @media screen and (max-width: 480px) {
@@ -295,5 +321,9 @@ main {
         margin-top: 2rem;
         height: 60%;
         width: 75%;
+    }
+
+    .footer__detail {
+        display: none;
     }
 }
