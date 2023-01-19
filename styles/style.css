@@ -69,6 +69,7 @@ nav ul li a:hover {
 main {
     display: flex;
     flex-direction: row;
+    align-items: center;
     margin-top: 6rem;
 }
 
@@ -78,6 +79,7 @@ main {
 
 #soumik__pic {
     width: 25vw;
+    height: 22vw;
     border-radius: 20px;
     margin-left: 2rem;
 }
@@ -261,7 +263,9 @@ main {
     }
 
     #soumik__pic {
-        display: none;
+        margin-top: 2rem;
+        height: 60%;
+        width: 75%;
     }
 
     .ombre__experience {
@@ -273,7 +277,9 @@ main {
         width: 100%;
     }
     #ombre__logo {
-        display: none;
+        margin-top: 2rem;
+        height: 60%;
+        width: 75%;
     }
 
     .section {
@@ -286,6 +292,8 @@ main {
     }
 
     #bottomstreet__logo {
-        display: none;
+        margin-top: 2rem;
+        height: 60%;
+        width: 75%;
     }
 }
