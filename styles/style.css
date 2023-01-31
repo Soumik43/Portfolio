@@ -39,18 +39,18 @@ header {
     margin: 20px 0;
 }
 
-nav {
+.header__nav {
     flex: 1;
     text-align: right;
 }
 
-nav ul li {
+.header__nav ul li {
     list-style: none;
     display: inline-block;
     margin-right: 30px;
 }
 
-nav ul li a {
+.header__nav ul li a {
     text-decoration: none;
     color: #000;
     font-size: 1rem;
@@ -58,7 +58,7 @@ nav ul li a {
     color: var(--text-secondary);
 }
 
-nav ul li a:hover {
+.header__nav ul li a:hover {
     color: var(--background-secondary);
 }
 
@@ -242,20 +242,22 @@ main {
 /* acheievement section end */
 
 /* Footer start */
+
 .solid {
     border-top: 1px solid var(--text-secondary);
 }
 
 .footer--col {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    justify-content: space-between;
 }
+
 .footer__detail {
     font-size: 1.2rem;
     font-weight: 500;
     color: var(--text-secondary);
 }
+
 .fa {
     margin: 0.75rem 1rem;
     color: var(--text-secondary);
@@ -270,7 +272,7 @@ main {
 /* Mobile screen responsiveness */
 
 @media screen and (max-width: 480px) {
-    nav {
+    .header__nav {
         display: none;
     }
 
@@ -325,5 +327,10 @@ main {
 
     .footer__detail {
         display: none;
+    }
+
+    .footer--col {
+        display: flex;
+        justify-content: center;
     }
 }
